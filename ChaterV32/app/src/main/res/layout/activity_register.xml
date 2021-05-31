@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:orientation="vertical">
+
+        <EditText
+                android:id="@+id/login"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/email"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Ваш логин"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/password"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Введите адрес эл.почты"/>
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Придумайте пароль"/>
+
+        <LinearLayout
+            android:id="@+id/buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/password"
+            android:layout_alignEnd="@+id/login"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@+id/password"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/signin"
+                android:layout_width="120dp"
+                android:layout_height="59dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="9dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Есть аккаунт"
+                android:textAllCaps="false" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/go"
+                android:layout_width="182dp"
+                android:layout_height="59dp"
+                android:layout_marginTop="9dp"
+
+                android:layout_marginEnd="1dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Зарегистрироваться"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

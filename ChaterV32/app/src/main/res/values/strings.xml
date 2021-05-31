@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ChatEr</string>
+    <string name="reg">Регистрация</string>
+    <string name="log">Вход в систему</string>
+    <string name="newlogin">Придумайте логин:</string>
+    <string name="newpass">Придумайте пароль:</string>
+    <string name="getlogin">Введите логин:</string>
+    <string name="getpass">Введите ваш пароль:</string>
+    <string name="mail">Ваша почта:</string>
+    <string name="go">Готово</string>
+    <string name="join">Войти</string>
+    <string name="signin">Войти в аккаунт</string>
+    <string name="noacc">Нет аккаунта</string>
+    <string name="checkmail">Проверьте вашу почту, вам было выслано письмо с кодом</string>
+    <string name="helpcode">Введите код:</string>
+    <string name="back">Назад</string>
+
+
+    <string name="nointernet">Нет подключения к сети</string>
+
+
+    <string name="loginerror">Длина логина должна быть больше 3 символов</string>
+    <string name="passworderror">Длина пароля должна быть больше 7 символов</string>
+    <string name="emailerror">Введите действительную почту</string>
+
+
+    <string name="nochats">Вы не состоите в чатах :(</string>
+
+
+    <string name="chatnameerror">Слишком короткое имя чата</string>
+    <string name="newchat">создать чат</string>
+    <string name="newchattitle">Создание нового чата</string>
+    <string name="newchatname">Название чата</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

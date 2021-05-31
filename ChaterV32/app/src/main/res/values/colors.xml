@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8BC269</color>
+    <color name="colorPrimaryDark">#24A640</color>
+    <color name="colorAccent">#3A7AB5</color>
+    <color name="error">#D53A3A</color>
+
+    <color name="msgother">#DEE1E6</color>
+
+    <color name="admincolor">#8893f6</color>
+</resources>
